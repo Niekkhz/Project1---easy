@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: hsl(0, 100%, 98%);
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 header img {
   margin-top: 30px;
@@ -12,7 +14,9 @@ div img {
 }
 form {
   display: flex;
+  justify-content: center;
   margin-top: 30px;
+  height: 30px;
 }
 .mainpart {
   display: row;
@@ -23,5 +27,19 @@ form {
   margin-right: 30px;
 }
 .text-mainpart {
-  color: hsl(0, 80%, 86%);
+  color: var(--main-brand-color);
+}
+span {
+  color: var(--main-brand-color);
+}
+:root {
+  --main-brand-color: hsl(0, 36%, 70%);
+  --primary-color: hsl(0, 93%, 68%);
+  --light-secondary-color: hsl(0, 6%, 24%);
+}
+.email-form input {
+  border-radius: 20px;
+}
+.email-form input[type="submit"] {
+  background-color: red;
 }
