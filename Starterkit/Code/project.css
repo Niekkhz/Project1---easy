@@ -39,7 +39,14 @@ span {
 }
 .email-form input {
   border-radius: 20px;
+  width: 250px;
+  border-color: var(--main-brand-color);
+  border-width: 1px;
+  border-style: solid;
 }
 .email-form input[type="submit"] {
-  background-color: red;
+  background-color: var(--primary-color);
+  width: 45px;
+  margin-left: -30px;
+  border: none;
 }
