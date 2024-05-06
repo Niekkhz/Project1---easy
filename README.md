@@ -12,8 +12,9 @@ In diesem Projekt habe ich die Challenge "Base Apparel" umgesetzt.
 
 ## Vorangehensweise
 
-1. Zuerst habe ich ...
-2. ...
+1. Zuerst habe ich mir einen plan erstellt wo ich was positioniere.
+2. Dann habe ich die HTML struktur angelegt.
+3. Danch habe ich meine CSS Struktur angelegt.
 
 **Autor**
 Niek Khazali
